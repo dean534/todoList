@@ -8,8 +8,8 @@ import { changeFilter } from "actions/filter";
 function TabList({ changeFilter, filter }) {
   const list = [
     { title: "全部", en: "all" },
-    { title: "已完成", en: "yet" },
-    { title: "未完成", en: "completed" }
+    { title: "未完成", en: "yet" },
+    { title: "已完成", en: "completed" }
   ];
   return (
     <List flex>
